@@ -1,1 +1,19 @@
 /*-- Use For Custom Styling --*/
+
+/* Secciones con fondo transparente para mostrar el fondo SVG global */
+#about,
+#team,
+#work,
+#pricing,
+#contact {
+	background: transparent !important;
+}
+
+/* Team cards: mantener ancho completo aunque cambie la longitud del texto */
+#team .team-classic-content,
+#team .hvr-team,
+#team .hvr-team2 {
+	width: 100%;
+	display: block;
+	box-sizing: border-box;
+}
