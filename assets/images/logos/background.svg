@@ -6,9 +6,7 @@
     <g filter="url(#b)">
       <ellipse cx="583" cy="229.5" fill="#4F46E5" rx="583" ry="229.5" transform="matrix(-1 0 0 1 621 -9)" />
     </g>
-    <g filter="url(#c)">
-      <ellipse cx="262" cy="184.5" fill="#fff" rx="262" ry="184.5" transform="matrix(-1 0 0 1 99 42)" />
-    </g>
+
   </g>
   <defs>
     <filter id="b" width="1614" height="907" x="-769" y="-233" color-interpolation-filters="sRGB"
