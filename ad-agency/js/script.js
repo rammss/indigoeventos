@@ -195,9 +195,14 @@ jQuery(function ($) {
        ====================================== */
 
     if (windowsize > 992) {
-        $(".parallaxie").parallaxie({
+        $(".parallaxie").not(".parallax2").parallaxie({
             speed: 0.4,
             offset: 0
+        });
+
+        $(".parallax2.parallaxie").parallaxie({
+            speed: 0.4,
+            offset: -60
         });
     }
 
